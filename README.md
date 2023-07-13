@@ -1,4 +1,4 @@
-# Projects
+# Project
 Here in this project we are using EHR-pancreatic data. In this dataset The column1 - "Sensitization type" is the dependent variable (Widespread and Segmental). 
 The dataset is imbalanced.
 We are developing a simple classification algorithms using a simple 3-layer Neural network, two-layer CNN, and a two-layer LSTM respectively.
