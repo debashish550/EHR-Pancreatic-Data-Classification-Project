@@ -17,6 +17,8 @@ Two-layer Long Short-Term Memory (LSTM): LSTMs are well-suited for analyzing seq
 # Techniques Applied
 To improve the performance and robustness of the classification algorithms, we apply the following techniques:
 
+One Hot-Encoding- In the EHR-Pancreatic data classification project, one-hot encoding is utilized as a technique to handle missing data and convert categorical variables into a suitable format for classification algorithms. One-hot encoding is an essential preprocessing step that ensures all the data is in numerical form, as most machine learning algorithms require numerical input.
+
 K-fold Cross-Validation: We partition the dataset into k subsets (folds) and perform k iterations. In each iteration, we use k-1 folds for training and the remaining fold for testing. This technique helps evaluate the model's performance on different subsets of the data and mitigates the impact of random variations in the training and testing splits.
 
 Leave-One-Subject-Out Cross-Validation: In this approach, we systematically leave out one subject's data from the training set and use it for testing. This technique ensures that the model generalizes well to unseen subjects by evaluating its performance on each subject independently.
